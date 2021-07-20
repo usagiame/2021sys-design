@@ -1,6 +1,6 @@
 # DB定義書
 ## ER図
-[ER図はこちら]("ER図はこちら")
+[ER図はこちら](https://github.com/usagiame/2021sys-design/blob/main/ERER.md"ER図はこちら")
 
 [画面遷移図はこちら](https://github.com/usagiame/2021sys-design/blob/main/%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%83%A1%E3%82%A4%E3%83%89%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%82%B5%E3%82%A4%E3%83%88.md"画面遷移図")
 
