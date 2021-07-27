@@ -87,6 +87,18 @@ package "ECサイト" as target_system {
     }
 
 
+ entity "オーダーマスタ" as items <m_order> <<M,MASTER_MARK_COLOR>> {
+        + individuality_code [PK]
+        --
+        individuality_name
+      
+        # category_id [FK]
+        image
+        detail
+        del_flag
+        reg_date
+    }
+
     entity "商品マスタ" as items <m_items> <<M,MASTER_MARK_COLOR>> {
         + item_code [PK]
         --
