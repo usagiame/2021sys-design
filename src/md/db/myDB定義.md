@@ -40,6 +40,16 @@
 |カテゴリID|category_code|int(11)|〇|〇||
 |氏名|name|varchar(20)||〇||
 |登録名|reg_date|date||〇||
+|登録商品|reg_date|date||〇||
+
+### オーダーマスタ(m_order)
+|和名|属性名|型|PK|NN|FK|
+|:---|:---|:---|:---|:---|:---|
+|個性|name|varchar|〇|〇||
+|顧客コード|customer_code|varchar(50)||〇|〇|
+|登録名|reg_date|date||〇||
+|登録商品|reg_date|date||〇||
+
 
 ### 商品マスタ（m_items）
 |和名|属性名|型|PK|NN|FK|
