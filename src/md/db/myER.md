@@ -87,7 +87,7 @@ package "ECサイト" as target_system {
     }
 
 
- entity "オーダーマスタ" as items <m_order> <<M,MASTER_MARK_COLOR>> {
+ entity "オーダーマスタ" as order <m_order> <<M,MASTER_MARK_COLOR>> {
         + order_code [PK]
         --
         order_name
