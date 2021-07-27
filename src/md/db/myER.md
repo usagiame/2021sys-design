@@ -150,7 +150,7 @@ customer       |o-ri-o{     order
 order          ||-ri-|{     order_detail
 order_detail    }-do-||     items
 items          }o-le-||     category
-items          }o-le-o||       m_order
+category          }o-le-o||       m_order
 
 @enduml
 
