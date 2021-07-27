@@ -87,7 +87,7 @@ package "ECサイト" as target_system {
     }
 
 
- entity "オーダーマスタ" as order <m_order> <<M,MASTER_MARK_COLOR>> {
+ entity "オーダーマスタ" as order2 <m_order> <<M,MASTER_MARK_COLOR>> {
         + order_code [PK]
         --
         order_name
@@ -147,7 +147,7 @@ customer       |o-ri-o{     order
 order          ||-ri-|{     order_detail
 order_detail    }-do-||     items
 items          }o-le-||     category
-m_order          }o--o|    order_detail   
+order2          }o--o|   items  
 
 @enduml
 
